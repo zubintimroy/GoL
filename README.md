@@ -20,7 +20,7 @@ four neighbours along the lattice diagonals)*
 
 ## Activate Virtual Environment and Running the Script
 - ``` .\env\Scripts\activate ```
-- ``` python main.py Size of Lattice Dynamics Mode ```
+- ``` python main_GoL.py Size of Lattice Dynamics Mode ```
 
 ## Outputs
 Example output .txt files and visualisation python scripts using matplotlib include:
