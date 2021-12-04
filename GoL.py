@@ -192,12 +192,12 @@ class GoL:
             CoM = np.array(pos)
             #for sweep % int(self.sweeps/10) == 0:
             if self.conditions == 'g':
-				
-				if len(CoM) == 5:
-					CoM_data = (np.mean(CoM, axis=0))
-					file = open('Conditions = ' + str(self.conditions) + ' CoM, X.txt', 'a+')
-					file.write('\n' + 't = ' + str(sweep) + ' ' + str(CoM_data[0]) + ' ' + str(CoM_data[1]))
-					file.close()
+                
+                if len(CoM) == 5:
+                    CoM_data = (np.mean(CoM, axis=0))
+                    file = open('Conditions = ' + str(self.conditions) + ' CoM, X.txt', 'a+')
+                    file.write('\n' + 't = ' + str(sweep) + ' ' + str(CoM_data[0]) + ' ' + str(CoM_data[1]))
+                    file.close()
             
 
             if sweep > 20 and self.conditions == 'r': 
