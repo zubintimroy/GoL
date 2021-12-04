@@ -23,9 +23,8 @@ four neighbours along the lattice diagonals)*
 - ``` python main_GoL.py Size of Lattice Dynamics Mode ```
 
 ## Outputs
-Example output .txt files and visualisation python scripts using matplotlib include:
+Example output.txt files and python scripts to visualise the data using matplotlib include:
 
-- Matplotlib visualisation of both random and pre determined initial conditions
 - Histogram of the time needed to reach an equilibrium for simulations starting with a random initial condition
 - Plot of the centre of mass vs time for the glider initial condition with fits and calculation of glider speed
 
