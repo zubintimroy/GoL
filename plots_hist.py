@@ -20,9 +20,6 @@ for line in data:
     else :
         pass
     
-
-#plots various graphs with error bars: Average energy against Temperature, Average absolute Magnetisation against Temperature, Specific Heat Capacity against Temperature and Suseptability against Temperature
-
 plt.hist(Timedata,bins = 50,density =True, fill=False,ec="r") 
 plt.title(" Game of Life - Time Required to Equilibrate for Random Initial Conditions",fontsize=14, fontweight = 'bold')
 plt.xlabel("Time to Steady State/Absorption (sweeps)",fontsize=12, fontweight = 'bold')
