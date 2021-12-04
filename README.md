@@ -7,7 +7,7 @@ Rules:
 3. Any live cell with more than 3 live neighbours dies
 4. Any dead cell with exactly 3 live neighbours becomes alive
 
-**N.B:** *that in Game of Life, it is conventional to consider as neighbours
+**N.B:** *In the Game of Life, it is conventional to consider as neighbours
 all cells which have at least a point in contact with a given cell; i.e.
 there are 8 neighbours for each cell (north, south, east, west, and the
 four neighbours along the lattice diagonals)*
